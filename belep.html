@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Belépés</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="kepek/git.png">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <script type="text/javascript">
+        function ellenorzes()
+        {
+            a=document.form.email.value;
+            b=document.form.pass.value;
+            if (a=="litvapatrik61@gmail.com" && b=="admin") 
+            {
+                location.href="index.html"
+            }else
+            {
+                alert("Hibás e-mail cím vagy jelszó!");
+            }
+        }
+function reg()
+{
+    location.href="index1.html"
+}
+    </script>
+</head>
+<body>
+    
+<div class="wrapper">
+  <div class="contact-form">
+    <div class="input-fields">
+        <form name="form">
+        <input type="text" class="input" name="email" placeholder="Email cím">
+        <input type="password" class="input" name="pass"  placeholder="Jelszó">
+        <br>
+
+      <br>
+      <div class="btn" onclick="ellenorzes()">Belépek</div>
+     <span class="reg2" onclick="reg()"> Regisztráció </span>
+    </div>
+    <br>
+        </form>
+
+    <div class="reg">
+        <br>
+        <center><img src="kepek/logmein.png" class="img"></center>
+        <br>
+        <br>
+      <center><img src="kepek/gepeszlogo.png"></center>
+    </div>
+  </div>
+</div>  
+
+
+</body>
+</html>
