@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "index1";
+}
+
+<h2>index1</h2>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="~/content/styles.css">
+    <link rel="icon" type="image/png" href="~/content/git.png">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <script type="text/javascript">
+   function belep()
+   {
+    location.href="belep.html";
+   }
+    </script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="contact-form">
+            <div class="input-fields">
+                <input type="text" class="input" placeholder="Vezetékneved">
+                <input type="text" class="input" placeholder="Keresztneved">
+                <input type="text" class="input" placeholder="Email cím">
+                <input type="text" class="input" placeholder="Telefonszám">
+                <input type="text" class="input" placeholder="OM-kódod">
+                <input type="text" class="input" placeholder="Jelszó">
+                <input type="text" class="input" placeholder="Jelszó megerősítése">
+                <br>
+                <div class="btn" onclick="belep()">Regisztrálok</div>
+            </div>
+            <br>
+            <div class="reg">
+                <br>
+                <center><img src="~/content/logmein.png" class="img"></center>
+                <br>
+                <br>
+                <center><img src="~/content/gepeszlogo.png"></center>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

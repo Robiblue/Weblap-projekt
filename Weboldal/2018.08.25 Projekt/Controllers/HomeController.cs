@@ -28,12 +28,9 @@ namespace _2018._08._25_Projekt.Controllers
             return View();
         }
 
-        public ActionResult UserDetails()
+        public ActionResult Index1()
         {
-            var bob = new User();
-            bob.Name = "Bob";
-            bob.BirthDate = new DateTime(2000, 1, 1);
-            return View(bob);
+            return View();
         }
 
         public ActionResult Belep()
