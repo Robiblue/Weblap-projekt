@@ -33,6 +33,16 @@ namespace _2018._08._25_Projekt.Controllers
             return View();
         }
 
+        public ActionResult Belep()
+        {
+           
+            return View();
+        }
 
+        public ActionResult Index2()
+        {
+
+            return View();
+        }
     }
 }
