@@ -1,0 +1,213 @@
+
+
+body{
+  background: url('~/Content/hatter.jpg') no-repeat;
+  background-size: cover;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contact-form{
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.reg{
+  width: 48%;
+}
+
+{
+  border-bottom: 5px solid red;
+}
+.input-fields .input,
+.reg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.reg textarea{
+  height: 212px;
+}
+
+.btn {
+    background: red;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.reg2
+{
+  position: absolute;
+  padding-top: 10px;
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .reg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .reg{
+    width: 100%;
+    float: left;
+  }
+  body
+  {
+    background-size: cover;
+  }
+}
+.img
+{
+  width: 250px;  
+}
+
+
+/*index.html*/
+    .caption span.border {
+  background-color: grey;
+    border:3px solid brown;
+    box-shadow: 2px 2px 2px 2px brown;
+  color: red;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.kep
+{
+  position: absolute;
+  bottom:0;
+  margin-left: 1215px;
+ 
+}
+.en
+{
+  text-align:justify;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.5);
+  bottom: 20px;
+  margin-left: 170px;
+  width: 1000px;
+  position: absolute;
+  color: #fff;
+}
+.kep img
+{
+  width:100px;
+  height:100px; 
+}
+.kep1
+{
+  position: absolute;
+  bottom:0;
+  margin-left: 35px;
+}
+.kep1 img
+{
+   width:100px;
+   height:100px;
+}
+.caption
+{
+  position: absolute;
+  top: 38%;
+  left: 10%;
+}
+html
+{
+  user-select: none;
+}
+body 
+{
+  background-attachment: fixed;
+  background-image: url("../kepek/hatter.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  #navbar {
+  overflow: hidden;
+background-color: black;
+ border-top: 2px solid white;
+  border-bottom: 2px solid white; 
+  padding-left: 320px
+}
+#navbar a {
+  float: left;
+  display: table-row;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar span {
+  float: left;
+  display: table-row;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  cursor: pointer;
+  color: #ccc;
+}
+#navbar span:hover {
+  cursor: pointer;
+  color: #ccc;
+}
+#date-time
+{
+  right: 10px;
+  top: 4px;
+  position: absolute;
+}
+.button
+{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background: none;
+  color: red;
+  border: 2px solid red; 
+  opacity: 0.8;
+}
+.button:hover
+{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
