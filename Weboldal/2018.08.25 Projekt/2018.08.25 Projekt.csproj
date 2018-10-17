@@ -291,6 +291,11 @@
     <Content Include="Views\Home\Belep.cshtml" />
     <Content Include="Views\Home\index1.cshtml" />
     <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="Views\Home\C.cshtml" />
+    <Content Include="Views\Home\Hl.cshtml" />
+    <Content Include="Views\Home\Iszgy.cshtml" />
+    <Content Include="Views\Home\Js.cshtml" />
+    <Content Include="Views\Home\Pr.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
