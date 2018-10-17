@@ -296,6 +296,9 @@
     <Content Include="Views\Home\Iszgy.cshtml" />
     <Content Include="Views\Home\Js.cshtml" />
     <Content Include="Views\Home\Pr.cshtml" />
+    <Content Include="Views\Home\Li.cshtml" />
+    <Content Include="Views\Home\Css.cshtml" />
+    <Content Include="Views\Home\Html.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
