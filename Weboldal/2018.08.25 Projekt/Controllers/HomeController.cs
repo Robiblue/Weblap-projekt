@@ -44,5 +44,35 @@ namespace _2018._08._25_Projekt.Controllers
 
             return View();
         }
+
+        public ActionResult Js()
+        {
+
+            return View();
+        }
+
+        public ActionResult Pr()
+        {
+
+            return View();
+        }
+
+        public ActionResult Iszgy()
+        {
+
+            return View();
+        }
+
+        public ActionResult C()
+        {
+
+            return View();
+        }
+
+        public ActionResult HL()
+        {
+
+            return View();
+        }
     }
 }
