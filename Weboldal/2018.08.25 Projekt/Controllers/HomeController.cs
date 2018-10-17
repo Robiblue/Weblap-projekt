@@ -35,7 +35,7 @@ namespace _2018._08._25_Projekt.Controllers
 
         public ActionResult Belep()
         {
-           
+
             return View();
         }
 
@@ -70,6 +70,23 @@ namespace _2018._08._25_Projekt.Controllers
         }
 
         public ActionResult HL()
+        {
+
+            return View();
+        }
+
+        public ActionResult Css()
+        {
+
+            return View();
+        }
+        public ActionResult Html()
+        {
+
+            return View();
+        }
+
+        public ActionResult Li()
         {
 
             return View();
