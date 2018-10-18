@@ -45,47 +45,56 @@ namespace _2018._08._25_Projekt.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult Js()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult Pr()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult Iszgy()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult C()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult HL()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult Css()
         {
 
             return View();
         }
+
+        [Authorize]
         public ActionResult Html()
         {
 
             return View();
         }
 
+        [Authorize]
         public ActionResult Li()
         {
 

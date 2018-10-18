@@ -16,6 +16,14 @@ namespace _2018._08._25_Projekt.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string LastName { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string PhoneNumber { get; set; }
+
+        public string OmCode { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

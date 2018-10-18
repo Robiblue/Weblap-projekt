@@ -13,7 +13,8 @@
 </head>
 <body>
     <div id="navbar">
-        <button class="button" onclick="vissza()">Kijelentkezés</button>
+        @RenderPage("~/Views/Shared/_LoginPartial.cshtml");
+      
         <ul class="menuitems">
 
             <li>@Html.ActionLink("HTML", "html", "Home")</li>
@@ -27,12 +28,12 @@
             
         </ul>
       
-        <script type="text/javascript">
+        @*<script type="text/javascript">
       document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>')
 if (document.getElementById) onload = function () {
   setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
 }
-        </script>
+        </script>*@
     </div>
 
     <div class="container body-content">
