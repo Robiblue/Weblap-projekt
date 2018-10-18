@@ -35,11 +35,58 @@ namespace _2018._08._25_Projekt.Controllers
 
         public ActionResult Belep()
         {
-           
+
             return View();
         }
 
         public ActionResult Index2()
+        {
+
+            return View();
+        }
+
+        public ActionResult Js()
+        {
+
+            return View();
+        }
+
+        public ActionResult Pr()
+        {
+
+            return View();
+        }
+
+        public ActionResult Iszgy()
+        {
+
+            return View();
+        }
+
+        public ActionResult C()
+        {
+
+            return View();
+        }
+
+        public ActionResult HL()
+        {
+
+            return View();
+        }
+
+        public ActionResult Css()
+        {
+
+            return View();
+        }
+        public ActionResult Html()
+        {
+
+            return View();
+        }
+
+        public ActionResult Li()
         {
 
             return View();
