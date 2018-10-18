@@ -25,7 +25,7 @@ namespace _2018._08._25_Projekt
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css","~/Content/styles.css"));
         }
     }
 }
